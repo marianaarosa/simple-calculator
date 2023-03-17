@@ -1,0 +1,59 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+  background-image: url(fundo.jpg);
+   /* 80 pixels de largura e 60 pixels de altura */
+  background-size: 1500px;  
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+h2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
+
+.div {
+  color: rgb(57, 57, 56);
+  width: 1650px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+
+input:focus {
+  border-color: rgb(242, 86, 86);
+}
+
+button {
+  width: 34px;
+  height: 26px;
+  box-shadow: 0.5px 0.5px 0.5px rgba(180, 178, 178, 0.1);
+  background-color: #d5d6f8;
+  border-radius: 5px;
+  
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+.button_Clear {
+  width: 50px;
+  height: 26px;
+  box-shadow: 0.5px 0.5px 0.5px rgba(180, 178, 178, 0.1);
+  background-color: #d5d6f8;
+  border-radius: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
